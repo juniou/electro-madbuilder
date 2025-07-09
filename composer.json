@@ -1,0 +1,20 @@
+{
+  "name": "juniou/electro-madbuilder",
+  "description": "Template Electro para Madbuilder",
+  "type": "adianti-library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "ElectroTemplate\\": "src/"
+    }
+  },
+  "extra": {
+    "adianti": {
+      "resources": {
+        "electro": "resources/electro"
+      }
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
